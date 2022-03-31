@@ -1,0 +1,90 @@
+
+     
+    
+.request-container{
+   margin-bottom:1.11111vw;
+   width: 32.39%;
+   height:24.728vw;
+   margin-left: 1.415%;
+}
+.request-container{
+   margin-bottom:1.11111vw;
+   width: 32.39%;
+   height:24.728vw;
+   margin-left: 1.415%;
+}
+.request-container2{
+   margin-bottom:1.11111vw;
+   width: 32.39%;
+   height:24.728vw;
+   margin-left: 1.415%;
+}
+.request-container3{
+   margin-bottom:1.11111vw;
+    width: 32.39%;
+   height:24.728vw;
+}
+.request-container23{
+   margin-bottom:1.11111vw;
+    width: 32.39%;
+   height:24.728vw;
+} 
+    
+.request{
+    width: 78.47222222vw;
+}
+    
+    
+    @media screen and (max-width:1199px) {
+
+        /* 타블렛 가로 */
+     
+    }
+    @media screen and (max-width:953px) {
+        /* 모바일 가로, 타블렛 세로 */
+        .request-container{
+            width: 49% ;
+            margin-left: auto;
+         }
+         .request-container2{
+            width: 49% ;
+            margin-left: 0;
+         }
+         .request-container3{
+            width: 49% ;
+            margin-left: auto;
+         }
+         .request-container23{
+            width: 49% ;
+            margin-left: 0;
+         }  
+    }
+        
+    @media screen and (max-width:599px) {
+        .request{
+            width: 320px;
+            height: 340px;
+        }
+    
+        /* 모바일 세로 */
+        .request-container{
+            width: 100% ;
+            margin-left: 0;
+            margin-bottom:16px;
+         }
+         .request-container2{
+            width: 100% ;
+            margin-left: 0;
+            margin-bottom:16px;
+         }
+         .request-container3{
+            width: 100% ;
+            margin-left: 0;
+            margin-bottom:16px;
+         }
+         .request-container23{
+            width: 100% ;
+            margin-left: 0;
+            margin-bottom:16px;
+         }  
+    }

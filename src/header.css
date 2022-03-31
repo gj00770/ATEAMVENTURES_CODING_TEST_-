@@ -1,0 +1,63 @@
+
+@media screen and (max-width:2300px) {
+
+    /* 타블렛 가로 */
+    .headerContent{
+        transform:translatex(280px) 
+    }
+    .headercontent-company{
+        color:white;
+    }
+    .headercontent-divider{
+        color:white;
+    }
+    .headercontent-logout{
+        color:white;
+    }
+    .header-container{
+        height:70px;
+    }
+    .hamburger{
+        display: none;
+    }
+    .big-logo{
+      display: block;
+    }
+    
+    
+    }
+@media screen and (max-width:953px) {
+    /* 모바일 가로, 타블렛 세로 */
+    
+    
+}
+    
+@media screen and (max-width:599px) {
+    /* 모바일 세로 */
+    .headercontent-company{
+        color:black;
+    }
+    .header-container{
+        height:44px;
+    }
+    .big-logo{
+     height: 12px;
+    margin-left: 24px;
+
+    }
+   
+    .hamburger{
+        display: block;
+    }
+    .headerContent{
+        transform:none; 
+    }
+    .headercontent-divider{
+        display: none;
+    }
+    
+    .headercontent-logout{
+        color:white;
+        color: black;
+    }
+}

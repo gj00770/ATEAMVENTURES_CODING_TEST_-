@@ -1,0 +1,28 @@
+
+         .first-level-req{
+            width:23.199vw;
+            height: 7.427vw;
+            min-height: 98px;
+            max-height: 108px;
+        }
+    
+
+@media screen and (max-width:1199px) {
+
+/* 타블렛 가로 */
+
+}
+@media screen and (max-width:953px) {
+/* 모바일 가로, 타블렛 세로 */
+.first-level-req{
+    width:33.398vw;
+}
+
+}
+
+@media screen and (max-width:599px) {
+/* 모바일 세로 */
+.first-level-req{
+    width:292px;
+}
+}

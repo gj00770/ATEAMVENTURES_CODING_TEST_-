@@ -1,0 +1,50 @@
+
+    .modal-toggle-container{
+        display: flex;
+        align-items: center;   
+        width:78.47222222vw; 
+        justify-content:space-between;
+        align-items:center;
+        
+    }
+    .navi{
+        width:78.47222222vw;     
+        margin-top:40px; 
+    }
+    .mothodModal{
+        position: absolute;
+        top:235px;
+        display: flex;
+    }
+    .meteraiModal{
+        position: absolute;
+        top:235px;
+        display: flex;
+        padding-left: 105px;
+    }
+    @media screen and (max-width:1199px) {
+    }
+    @media screen and (max-width:940px) {
+    }
+    
+    @media screen and (max-width:599px) {
+        .modal-toggle-container{
+            width: 320px;
+            flex-direction: column;
+            align-items:flex-start;
+        }
+        .navi{
+            margin-top:24px; 
+            width:320px;  
+        }
+        .toggle{
+            margin-top: 20px;
+            margin-left:8px ;
+        }
+        .mothodModal{
+            top:193px;
+        }
+        .meteraiModal{
+            top:193px;
+        }
+    }
